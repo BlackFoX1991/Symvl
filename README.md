@@ -1,3 +1,5 @@
+![Alt text](/Symvl.png?raw=true "Symvl Scripting Language")
+
 # Symvl - Scripting Language
 
 Symvl is a work in progress interpreted scripting language. As I began developing Codium four to five years ago, my goal was to understand the art of abstract syntax tree (AST) and how to produce bytecode or opcode for later execution. Codium is based on a custom-made opcode instruction set that showcases my own code virtual machine (VM), while Symvl will actively use AST structures.
