@@ -19,10 +19,13 @@ For conceptual purposes, Symvl will Concept will be written in C++.
 Rust has all the features of C++ and offers more secure memory management, which is the main reason why I choose it over C++. Although there are some differences between the two, such as C++ being faster at compiling and Rust having better framework support, Rust is still the better choice for backend programming/scripting. Variables, functions, objects, and everything else need a safe memory management system, which Rust provides. It doesn't mean C++ is bad, but for my purposes, Rust is the better option.
 
 
-# Current Progress of the C++ Concept ( edited 12.03.2023 )
+# Current Progress of the C++ Concept
 
-[ Please notice : I will write the Concept in C++ instead of C# after some Time of overthinking. ]
-Currently, I am working on the abstract syntax tree (AST) in combination with the parser. It involves a significant amount of classes and statement nodes. My plan is to release the first beta version of Symvl in the next 2 or 3 months.
+	12.03.2023 -> Development in C# stopped, started with C++ instead.
+		   -> new Grammer Concept has been written.
+		   -> Lexer and Syntax Tree Structures created.
+		   
+	Current Progress : 15%
 
 
 # A Example of Symvl / Lua Code ( edited 12.03.2023 , new Grammer )
