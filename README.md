@@ -23,29 +23,25 @@ Rust has all the features of C++ and offers more secure memory management, which
 Currently, I am working on the abstract syntax tree (AST) in combination with the parser. It involves a significant amount of classes and statement nodes. My plan is to release the first beta version of Symvl in the next 2 or 3 months.
 
 
-# A Example of Symvl / Lua Code 
+# A Example of Symvl / Lua Code ( edited 12.03.2023 , new Grammer )
 
 ```lua
 --[[ This is a Sample Source Code in Symvl,
 	you will notice it is super Lua-like ]]
 
-fruit = {} -- create a fruit
-fruit.__index = fruit;
+local function Fruit(Name,Price)
 
--- Initialize some root Objects of fruit
-function fruit.new(Name, Price)
-	f = { name = Name, price = Price }
-	setmetatable(f, fruit)
-	return f
+	local fruit_data = { nm = Name, pr = Price}
+	
+	function fruit_data:priceof(fname)
+		return "The Price of " .. self.nm .. " is " .. self.pr
+	end
+	
+	return fruit_data
+
 end
-
--- new Member/Function of fruit Table
-function fruit:get()
-	return "Fruit Name: " .. self.name .. " -> Price: " .. self.price
-end
-
-
--- create a new Object of fruit Table
-mango = fruit.new("Mango", 2.35)
-print(mango:get()) -- print it out
+-- create a new Object of Fruit
+local mango = Fruit("Mango",2.35)
+print(mango:priceof("Mango"))
+```
  
