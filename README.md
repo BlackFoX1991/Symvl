@@ -33,7 +33,7 @@ local function Fruit(Name,Price)
 
 	local fruit_data = { nm = Name, pr = Price}
 	
-	function fruit_data:priceof(fname)
+	function fruit_data:priceof()
 		return "The Price of " .. self.nm .. " is " .. self.pr
 	end
 	
@@ -42,6 +42,6 @@ local function Fruit(Name,Price)
 end
 -- create a new Object of Fruit
 local mango = Fruit("Mango",2.35)
-print(mango:priceof("Mango"))
+print(mango:priceof())
 ```
  
