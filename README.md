@@ -14,7 +14,7 @@ For conceptual purposes, Symvl will Concept will be written in C++.
 
 
 
-# Why rewrite Rust ?
+# Why rewrite the Code in Rust later ?
 
 Rust has all the features of C++ and offers more secure memory management, which is the main reason why I choose it over C++. Although there are some differences between the two, such as C++ being faster at compiling and Rust having better framework support, Rust is still the better choice for backend programming/scripting. Variables, functions, objects, and everything else need a safe memory management system, which Rust provides. It doesn't mean C++ is bad, but for my purposes, Rust is the better option.
 
