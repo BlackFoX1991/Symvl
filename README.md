@@ -1,4 +1,4 @@
-![Symvl_logo](Symvl.png?raw=true "Symvl Scripting Language")
+![Symvl](https://user-images.githubusercontent.com/125445926/224560670-08cf2110-f267-499a-bd66-dca8300b1492.PNG)
 
 # Symvl - Scripting Language
 
