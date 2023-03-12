@@ -1,4 +1,4 @@
-![Alt text](/Symvl.png?raw=true "Symvl Scripting Language")
+![Symvl_logo](Symvl.png?raw=true "Symvl Scripting Language")
 
 # Symvl - Scripting Language
 
