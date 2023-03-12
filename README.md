@@ -5,22 +5,21 @@ My plan is to produce machine code or implement a new custom VM from there, but 
 
 
 
-# Symvl Concept
+# Symvl Concept ( edited 12.03.2023 )
 
 I used to be a big fan of Lua, and as a result, I will be leaning Symvl's syntax towards it. This includes incorporating features like tables and creating classes within a table, among others. Additionally, Symvl will even be able to interpret Lua files. I chose Lua because it is a well-known scripting language, and there's no need to learn a completely new language.
-For conceptual purposes, Symvl will be developed in C# using .NET Core 3.1. However, I plan to rewrite it in Rust eventually. Since I'm still learning Rust, this will take some time.
+For conceptual purposes, Symvl will Concept will be written in C++.
 
 
 
-# Why C# and why Rust after all ?
+# Why rewrite Rust ?
 
-C++ is one of my favorite languages because it has all the features I need. However, refreshing my skills in C++ takes too much time, which is a limited resource for me right now. As a C++ developer, I'm well aware of the time-consuming task of dealing with header files and prototype declarations. It involves writing the class, rewriting it as a header prototype, and then fitting the cpp file to match the header, among other things. On the other hand, C# is easier and faster to work with.
-
-That's why I've decided to rewrite my concept code in Rust. Rust has all the features of C++ and offers more secure memory management, which is the main reason why I choose it over C++. Although there are some differences between the two, such as C++ being faster at compiling and Rust having better framework support, Rust is still the better choice for backend programming/scripting. Variables, functions, objects, and everything else need a safe memory management system, which Rust provides. It doesn't mean C++ is bad, but for my purposes, Rust is the better option.
+Rust has all the features of C++ and offers more secure memory management, which is the main reason why I choose it over C++. Although there are some differences between the two, such as C++ being faster at compiling and Rust having better framework support, Rust is still the better choice for backend programming/scripting. Variables, functions, objects, and everything else need a safe memory management system, which Rust provides. It doesn't mean C++ is bad, but for my purposes, Rust is the better option.
 
 
-# Current Progress of the C# Concept
+# Current Progress of the C++ Concept ( edited 12.03.2023 )
 
+[ Please notice : I will write the Concept in C++ instead of C# after some Time of overthinking. ]
 Currently, I am working on the abstract syntax tree (AST) in combination with the parser. It involves a significant amount of classes and statement nodes. My plan is to release the first beta version of Symvl in the next 2 or 3 months.
 
 
