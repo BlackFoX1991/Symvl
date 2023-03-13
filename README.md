@@ -31,7 +31,14 @@ Rust has all the features of C++ and offers more secure memory management, which
 		   -> implemented Binary and Unary Nodes
 		   -> implemented Variable Assign Node
 		   
-	Current Progress before first real Tests : 25%
+		   [ 10:45 P.M. ]
+		   -> implemented Block Node
+		   -> implemented Condition Node
+		   -> implemented if Node
+		   -> implemented while/ for Node
+		   -> First Succesful Parse attempt on Variables, General Expression Statements ( Binary, Unary )
+		   
+	Current Progress before first real Tests : 32%
 
 
 # A Example of Symvl / Lua Code ( edited 12.03.2023 , new Grammer )
