@@ -24,8 +24,14 @@ Rust has all the features of C++ and offers more secure memory management, which
 	12.03.2023 -> Development in C# stopped, started with C++ instead.
 		   -> new Grammer Concept has been written.
 		   -> Lexer and Syntax Tree Structures created.
+	
+	13.03.2013 -> Created a first Parser for the Lexer
+	           -> First Syntax-Tree Tests
+		   -> implemented Expression Node
+		   -> implemented Binary and Unary Nodes
+		   -> implemented Variable Assign Node
 		   
-	Current Progress : 15%
+	Current Progress before first real Tests : 25%
 
 
 # A Example of Symvl / Lua Code ( edited 12.03.2023 , new Grammer )
