@@ -25,7 +25,7 @@ Rust has all the features of C++ and offers more secure memory management, which
 		   -> new Grammer Concept has been written.
 		   -> Lexer and Syntax Tree Structures created.
 	
-	13.03.2013 -> Created a first Parser for the Lexer
+	13.03.2023 -> Created a first Parser for the Lexer
 	           -> First Syntax-Tree Tests
 		   -> implemented Expression Node
 		   -> implemented Binary and Unary Nodes
@@ -38,7 +38,24 @@ Rust has all the features of C++ and offers more secure memory management, which
 		   -> implemented while/ for Node
 		   -> First Succesful Parse attempt on Variables, General Expression Statements ( Binary, Unary )
 		   
-	Current Progress before first real Tests : 32%
+	14.03.2023 -> implemented Complete Expression Node
+		   -> implemented function Nodes, extended Variable Handling
+		   -> implemented Table Node to create Kind of custom Objects
+		   -> Handling for custom User Data implemented ( Custom Objects/ Tables )
+		   -> Parser updated with all the Nodes above, after about 30 Testruns it seems to work for now
+		   -> Parser extened with a custom VM but VM is not finished yet
+		   
+	
+	TODO LIST:
+	
+	-> Some more Tests
+	-> extend VM
+	-> optimize Code in Nodes due the extension of a vm
+	-> several more Tests on User Data, custom Tables and so on..
+	-> *Planned to create a JIT-Compiler
+	-> much more...
+		   
+	Current Progress before first real Tests : 47%
 
 
 # A Example of Symvl / Lua Code ( edited 12.03.2023 , new Grammer )
