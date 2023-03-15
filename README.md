@@ -21,41 +21,55 @@ Rust has all the features of C++ and offers more secure memory management, which
 
 # Current Progress of the C++ Concept
 
-	12.03.2023 -> Development in C# stopped, started with C++ instead.
-		   -> new Grammer Concept has been written.
-		   -> Lexer and Syntax Tree Structures created.
-	
-	13.03.2023 -> Created a first Parser for the Lexer
-	           -> First Syntax-Tree Tests
-		   -> implemented Expression Node
-		   -> implemented Binary and Unary Nodes
-		   -> implemented Variable Assign Node
+
+### 13.03.2023:
+	• Created the first parser for the lexer.
+	• Conducted the first syntax tree tests.
+	• Implemented the expression node.
+	• Implemented binary and unary nodes.
+	• Implemented variable assign node.
+	• Implemented block node.
+	• Implemented condition node.
+	• Implemented if node.
+	• Implemented while/for node.
+	• Successfully parsed variables and general expression statements (binary, unary).
+	• First successful parse attempt.
+
+
+### 14.03.2023:
+	• Implemented complete expression node.
+	• Implemented function nodes and extended variable handling.
+	• Implemented table node to create a custom object.
+	• Implemented handling for custom user data (custom objects/tables).
+	• Updated the parser with all the nodes above.
+	• After about 30 test runs, it seems to work for now.
+	• Extended the parser with a custom VM, but the VM is not finished yet.
+
+
+### 15.03.2023:
+	• Extended VM with many new features.
+	• Optimized the translation process from AST to VM.
+	• VM is now complete and represents the JIT-compiler.
+	• Symvl now has all the important features (function statements, variables, kind of custom tables, condition statements [if, while, for], array, and so on).
 		   
-		   [ 10:45 P.M. ]
-		   -> implemented Block Node
-		   -> implemented Condition Node
-		   -> implemented if Node
-		   -> implemented while/ for Node
-		   -> First Succesful Parse attempt on Variables, General Expression Statements ( Binary, Unary )
 		   
-	14.03.2023 -> implemented Complete Expression Node
-		   -> implemented function Nodes, extended Variable Handling
-		   -> implemented Table Node to create Kind of custom Objects
-		   -> Handling for custom User Data implemented ( Custom Objects/ Tables )
-		   -> Parser updated with all the Nodes above, after about 30 Testruns it seems to work for now
-		   -> Parser extened with a custom VM but VM is not finished yet
+### TODO LIST:
+
+	• Optimize Code Generation
+	• Several Tests to make sure everything works
+	• (*)Add more Libraries
 		   
-	
-	TODO LIST:
-	
-	-> Some more Tests
-	-> extend VM
-	-> optimize Code in Nodes due the extension of a vm
-	-> several more Tests on User Data, custom Tables and so on..
-	-> *Planned to create a JIT-Compiler
-	-> much more...
-		   
-	Current Progress before first real Tests : 47%
+
+# Further Information of the Current Progress
+
+Finally Smyvl made a big jump in Progress and runs for now. Im glad i spent this 12 Hours in a row to push it forward.
+As we can see i made a few Changes and extened the VM while updating the Parser and AST. At least im happy i used C++ and
+not C# as i mentioned before since its way easier in the beginning. C++ is the complete opposite, its hard in the beginning 
+since you have to plan well before you start but its getting easier with every Step.
+
+I cant say anything about the current Progress but the hard Part is over, finally i took some Code from Codium translated it
+to C++ and optimized everything to the Core. Theres also kind of an API in the VM which allows to create own Interfaces and link them
+to a Metatable as an Object or Class like Structure.
 
 
 # A Example of Symvl / Lua Code ( edited 12.03.2023 , new Grammer )
