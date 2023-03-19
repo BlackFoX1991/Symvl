@@ -7,11 +7,8 @@ Wellcome to Symvl, yet another Scripting Language. Symvl is written in C++ using
 	   
 		   
 
-# Current Progress ( 18.03.2023 )
+# Todo ( 19.03.2023 )
 
-	• Symvl - Engine ( 100 % )
-	• Basic Libraries such as IO/ Math and Table ( 100% )
-	• Fixing various Bugs ( 70 to 80% )
 	• Implementing MySQL Library ( 0% )
 	• Creating Code Examples ( 50% )
 	• Create a Documentation ( 0% )
