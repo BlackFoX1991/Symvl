@@ -2,21 +2,17 @@
 
 # Symvl Scripting Language
 
-Wellcome to Symvl, yet another Scripting Language. Symvl is written in C++ using Code:Blocks and GCC. Every Part is handwritten, started from the Lexer, Parser, AST and VM. As you can see the Code will compiled just in Time which means we have pretty good executation Times. The Syntax of Symvl is very similar with Lua but there are some decent Differences. At least if you already know Lua there Symvl will be very familiar to you. I chose Lua's Syntax because its easy to learn while its a dynamicially typed Language, surprise.. surprise Symvl too. Symvl can be easily extended with the builtin API Class, allows to add new Functions. There are several Classes use it already like the IO Library, the Math Library and also the Table Library. This brings many possibilities to Symvl. Symvl does support Conditions such as if, elseif, else , while where we already come to Loops with for, for in pairs and so on. Basic Stuff like global and local Variables, same with functions and also User-defined Objects in form of Tables. You will see the similarities to Lua in later Code Examples. The current supported Datatypes in Symvl are Numbers such as Integer and Float, String, Boolean and User-defined Objects which can contain various Data-Structures.
+Welcome to Symvl, yet another scripting language. Symvl is written in C++ using Code::Blocks and GCC. Every part is handwritten, starting from the lexer, parser, AST, and VM. As you can see, the code will be compiled just in time, which means we have pretty good execution times. The syntax of Symvl is very similar to Lua, but there are some significant differences. If you already know Lua, then Symvl will be very familiar to you. I chose Lua's syntax because it's easy to learn, and it's a dynamically typed language - surprise, surprise - Symvl is also dynamically typed. Symvl can be easily extended with the built-in API class, which allows you to add new functions. Several classes are already in use, such as the IO library, the math library, and the table library. This brings many possibilities to Symvl. Symvl supports conditions such as if, elseif, else, while, and loops such as for, for in pairs, and so on. Basic stuff like global and local variables, functions, and user-defined objects in the form of tables are also supported. You will see the similarities to Lua in later code examples. The current supported datatypes in Symvl are numbers such as integer and float, strings, booleans, and user-defined objects, which can contain various data structures.
 
 
 # How to compile ?
 
-I used Code:Blocks for the Development in combination with the GNU GCC Compiler. Theres is a pre-compiled Binary Release
-if you want to Test Symvl. Easy to use, just run it from your Terminal/Command-Host, the only Parameter is the Path of the Script File
-you want to run. You can run Symvl without Parameter to execute single-line Code.
+I used Code::Blocks for development in combination with the GNU GCC Compiler, but I plan to create a proper CMake file for this project. Since I didn't care about a Make or CMake file, I will have to create one, which will take a bit of time. However, I promise to do it soon. There is a pre-compiled binary release available if you want to test Symvl. It's easy to use - just run it from your terminal/command prompt. The only parameter you need to specify is the path of the script file you want to run. You can also run Symvl without any parameters to execute single-line code.
 
 
 # Syntax of Symvl
 
-First of all, Statements can be placed in the Root of the Script, there is no specific
-Entry-Point in Symvl. This are just Examples of how it can be done.
-At least you will notice Symvl is very inspired by Lua because i used to be a big fan of Lua which is still the Case.
+First of all, statements can be placed in the root of the script - there is no specific entry point in Symvl. These are just examples of how it can be done. You will notice that Symvl is very inspired by Lua, as I used to be a big fan of Lua, and still am.
 
 ## Symvl Supports the following Operators
 • + 		Plus
