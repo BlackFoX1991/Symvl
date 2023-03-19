@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Symvl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Symvl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Symvl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add directory="Symvl/" />
+			<Add directory="Symvl/Libs" />
+			<Add directory="Symvl/Parser" />
+			<Add directory="Symvl/S_Exception" />
+			<Add directory="Symvl/Types" />
+			<Add directory="Symvl/VM" />
+		</Linker>
+		<Unit filename="Libs/LibAPI.cpp" />
+		<Unit filename="Libs/LibAPI.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Libs/LibBase.cpp" />
+		<Unit filename="Libs/LibBase.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Libs/LibIO.cpp" />
+		<Unit filename="Libs/LibIO.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Libs/LibMath.cpp" />
+		<Unit filename="Libs/LibMath.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Libs/LibString.cpp" />
+		<Unit filename="Libs/LibString.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Libs/LibTable.cpp" />
+		<Unit filename="Libs/LibTable.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/Guard.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/Lex.cpp" />
+		<Unit filename="Parser/Lex.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/Parser.cpp" />
+		<Unit filename="Parser/Parser.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/SemanticAnalysis.cpp" />
+		<Unit filename="Parser/SemanticAnalysis.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/SyntaxTree.cpp" />
+		<Unit filename="Parser/SyntaxTree.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/Token.cpp" />
+		<Unit filename="Parser/Token.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parser/Visitor.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="S_Exception/Exception.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Types/Function.cpp" />
+		<Unit filename="Types/Function.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Types/String.cpp" />
+		<Unit filename="Types/String.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Types/StringPool.cpp" />
+		<Unit filename="Types/StringPool.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Types/Table.cpp" />
+		<Unit filename="Types/Table.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Types/UserData.cpp" />
+		<Unit filename="Types/UserData.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Types/Value.cpp" />
+		<Unit filename="Types/Value.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/CodeGenerate.cpp" />
+		<Unit filename="VM/CodeGenerate.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/GC.cpp" />
+		<Unit filename="VM/GC.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/ModuleManager.cpp" />
+		<Unit filename="VM/ModuleManager.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/OpCode.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/Runtime.cpp" />
+		<Unit filename="VM/Runtime.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/State.cpp" />
+		<Unit filename="VM/State.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/TextInStream.cpp" />
+		<Unit filename="VM/TextInStream.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/Upvalue.cpp" />
+		<Unit filename="VM/Upvalue.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/VM.cpp" />
+		<Unit filename="VM/VM.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="VM/externals/sqlite3.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="symvl.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
