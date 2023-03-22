@@ -12,9 +12,8 @@ I used Code::Blocks for development in combination with the GNU GCC Compiler, bu
 
 # Todo ( 19.03.2023 )
 
-	• Creating Code Examples ( 50% )
-	• Create a Documentation ( 0% )
-	• Implementing MySQL Library ( 0% )
+	• Create a Documentation ( 50% )
+	• Implementing MySQL Library ( 40% )
 	
 	
 
