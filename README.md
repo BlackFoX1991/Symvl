@@ -143,4 +143,11 @@ For more "Todos" take a look at the List below.
 	• Creating Code Examples ( 50% )
 	• Create a Documentation ( 0% )
 	• Implementing MySQL Library ( 0% )
+	
+	
+
+# Documentation
+
+[Click here to get started](https://github.com/BlackFoX1991/Symvl/blob/main/docs/doc.md)
+
  
