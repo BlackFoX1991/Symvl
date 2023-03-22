@@ -4,8 +4,7 @@ This is a simple Chapter, i will show you how to use all the Statements and how 
 
 
 ##  List of available Statements
-|**if - Statement**|
-|--|--|
+### if - Statement
 
 As you can see in this example its pretty easy, if needs a boolean expression,
 **if its true the first Block will executed while it jumps over all the related "*elseif*" Statements and "*else*" Statement** till it reached the end of it.
@@ -21,8 +20,7 @@ else
 end
 ```
 ---
-|**while - Loop**|
-|--|--|
+### while - Loop
 
 The while-loop is my personal Favorite, you can easily create endless Loops which keeps the Program running while it can respond to your input and give you the right output but let explain me how to use it in Symvl. **At least it will do the same as it does in any other Programming Language, it will Loop until the Condition equals the given Expression.**
 
@@ -34,8 +32,7 @@ end
 As you can see, we need to set a Keyword called "*do*" which indicates the end of the Header in while the while Statement. Other Languages, like C or C++ and so on, does the same with a new Line or with a left Brace. Since i was very inspired by Lua, the Syntax became like this.
 
 ---
-|**repeat...until - Loop**|
-|--|--|
+### **repeat...until - Loop**
 
 Followed by while we have the repeat.. until Statement which, in other Languages, mostly become "*do { .... } while(...);*". In some Cases it can become very practical if you have a Loop Function which allows us to **do the first run and afterwards it will check the Expression.**
 
