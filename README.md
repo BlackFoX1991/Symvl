@@ -12,7 +12,7 @@ I used Code::Blocks for development in combination with the GNU GCC Compiler, bu
 
 # Todo ( 19.03.2023 )
 
-	• Create a Documentation ( 50% )
+	• Create a Documentation ( 75% )
 	• Implementing MySQL Library ( 40% )
 	
 	
