@@ -22,3 +22,10 @@ I used Code::Blocks for development in combination with the GNU GCC Compiler, bu
 [Click here to get started](https://github.com/BlackFoX1991/Symvl/blob/main/docs/doc.md)
 
  
+ 
+## Additional Scripts
+i will Update the additional Scripts Time by Time to hand you some Ideas and also some extra Functions written in Symvl as kind of Extension.
+
+|Script| Info |
+|---------|--|
+|[utils.syl](https://github.com/BlackFoX1991/Symvl/blob/main/scripts/utils.syl)|This contains some useful Functions like Split or IndexOf and so on|
