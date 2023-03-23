@@ -1,0 +1,138 @@
+--[[
+
+	Symvl Utils Script (c) 2023 Artur Loewen
+	
+	Contains some useful Functions
+	
+	Version : 23.03.2023 -> 08:44 PM
+]]
+
+
+-- Converts a string to a Number
+function tonumber(str)
+
+	local num = 0
+	for i = 1, #str do
+		num = num * 10 + string.byte(string.sub(str,i,i)) - string.byte('0')
+	end
+	return num
+end
+
+-- checks if the String is Numeric
+function isnumeric(str)
+
+	local fnd = true
+	for i = 1, #str do
+	
+		local cA = string.sub(str,i,i)
+		local cB = string.byte(cA)
+
+		if (cB < 48 or cB > 57) and cB ~= 46 then
+			fnd = false
+			break
+		end
+	
+	end
+	return fnd
+end
+
+-- Locates the Index of specific Text at given Position
+function IndexOf(sval, start, value)
+	local index = -1
+	for i = start, #sval do
+		if(string.sub(sval,i,i) == value)then
+			index = i
+			break
+		end
+	end
+	return index
+end
+
+-- Returns last Index of specific Text
+function LastIndexOf(sval, start, value)
+	local index = -1
+	for i = start, #sval do
+		if(string.sub(sval,i,i) == value)then
+			index = i
+		end
+	end
+	return index
+end
+
+
+-- Other Version of string.sub(...) 
+function substring(sval,start,length)
+	if(length == nil)then
+		return string.sub(sval,start)
+	else
+		return string.sub(sval,start,(start+length))
+	end
+end
+
+function isWhitespace(schar)
+
+	local bt = string.byte(schar)
+	if	bt == 13 or
+		bt == 32 or
+		bt == 10 or
+		bt == 9 then
+		return true
+	end
+	return false
+end
+
+
+--[[ Parameter "mode" is optional, 
+	can be "R" for right Trim or "L" for left Trim, leave it out means Trim both ]]
+function Trim(sval,mode)
+	local copy = sval
+	if(mode ~= nil and mode ~= "L" and mode ~= "R")then
+		return "[utils.syl] -> function Trim(...)\nValid modes for Trim :\nnil = Trim both\n\"R\" Trim right\n\"L\" Trim left"
+	end
+	if(mode == "L" or mode == nil)then
+		while copy ~= nil and isWhitespace(string.sub(copy,1,1)) do
+			copy = string.sub(copy,2)
+		end
+	end
+	if(mode == "R" or mode == nil)then
+		while copy ~= nil and isWhitespace(string.sub(copy,(string.len(copy)),string.len(copy)+1)) do
+			copy = string.sub(copy,1,(string.len(copy)-1))
+		end
+	end
+	return copy
+end
+
+--[[
+	The well known Split Function, you can limit how often the given
+	Value should be splitted, also you can choose the way of of split,
+	so reversed will split from the End of String while not reversed will split from start
+	
+	reversed and limit are optional Parameters, default is no reversed split and without any limit
+	]]
+function Split(sval, sep, limit,reversed)
+	local copy = sval
+	local sarr = {}
+	local run = 0
+	repeat
+		run = run +1
+		local ind
+		
+		if reversed ~= nil and reversed ~= false then
+			ind = LastIndexOf(copy,1,sep)
+			sarr[#sarr+1] = string.sub(copy,ind+1)
+			copy = string.sub(copy,1,ind-1)
+		else
+			ind = IndexOf(copy,1,sep)
+			sarr[#sarr+1] = string.sub(copy,1,ind-1)
+			copy = string.sub(copy,ind+1,#copy)
+		end
+		
+		if(limit ~= nil and limit ~= -1)then
+			if limit == run then
+				sarr[#sarr+1] = copy
+				break
+			end
+		end
+	until(ind == -1)
+	return sarr
+end
