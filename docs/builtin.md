@@ -20,7 +20,7 @@ This List contains all builtin Function, including current API Modules.
 The following Functions are Members of the "io" Table. You have to use "io." to access them.
 |Function|Return/ Usage
 |--|--|
-|*open*(***path,[optional] mode***)| Returns the File-stream of the given Path or if there is an Error a "nil" Value. The default mode is "r" which means read. Symvl uses the [C File-Modes](https://www.tutorialspoint.com/cprogramming/c_file_io.htm) since its written in C/C++.
+|*open*(***path,[optional] mode***)| Returns the File-stream of the given Path or if there is an Error a "nil" Value. The default mode is "r" which means read. Symvl uses the [C File-Modes](https://www.tutorialspoint.com/cprogramming/c_file_io.htm) since its written in C++.
 |*stdin*()| Returns the standard-input stream
 |*stdout*()| Returns the standard-output stream
 |*stderr*()| Returns the standard-error stream
