@@ -27,7 +27,7 @@ Here we have the currently supported Operators in Symvl. At the Moment we do not
 |\+| Add left and right side
 |\-| Sub left and right side
 |\*| Multiply left and right side
-|\\\ | Divide left and right side
+|\\ | Divide left and right side
 |\%| Modular
 |\^| Exponent
 
