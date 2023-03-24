@@ -15,6 +15,7 @@ Here we have the currently supported Operators in Symvl. At the Moment we do not
 |~=| Not Equals
 |and| logical and Operator / Keyword
 |or| logical or Operator / Keyword
+|not| logical not Operator / Keyword
 
 
 ## Binary Operators
