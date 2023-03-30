@@ -44,4 +44,4 @@ Here we have the currently supported Operators in Symvl. At the Moment we do not
 |( )| Last but not least the left and right Parentheses which will either set the precedence of Operations, call Functions or initialize Parameters of a Function-header.
 
 
-[Next Chapter, Basics of Symvl](https://github.com/BlackFoX1991/Symvl/tree/main/docs/basics.md)
+[Next Chapter, Basics of Symvl](https://github.com/BlackFoX1991/Symvl/tree/main/docs/bas.md)
