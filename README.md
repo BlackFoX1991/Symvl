@@ -13,7 +13,11 @@ I used Code::Blocks for development in combination with the GNU GCC Compiler, bu
 # Todo ( 19.03.2023 )
 
 	• Create a Documentation ( 75% )
-	• Implementing MySQL Library ( 40% )
+	• Implementing MySQL Library ( 57% )
+	
+# Current State ( 15.05.2023 )
+
+	• Development will continued for now. Next Update will be in 4 Weeks.
 	
 	
 
