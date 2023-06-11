@@ -15,9 +15,9 @@ I used Code::Blocks for development in combination with the GNU GCC Compiler, bu
 	• Create a Documentation ( 75% )
 	• Implementing MySQL Library ( 57% )
 	
-# Current State ( 15.05.2023 )
+# Current State ( 16.06.2023 )
 
-	• Development will continued for now. Next Update will be in 4 Weeks.
+	• Development will continued for now. Next Update will be in 2 Weeks.
 	
 	
 
