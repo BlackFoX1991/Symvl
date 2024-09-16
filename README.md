@@ -10,16 +10,6 @@ Welcome to Symvl, yet another scripting language. Symvl is written in C++ using 
 I used Code::Blocks for development in combination with the GNU GCC Compiler, but I plan to create a proper CMake file for this project. Since I didn't care about a Make or CMake file, I will have to create one, which will take a bit of time. However, I promise to do it soon. There is a pre-compiled binary release available if you want to test Symvl. It's easy to use - just run it from your terminal/command prompt. The only parameter you need to specify is the path of the script file you want to run. You can also run Symvl without any parameters to execute single-line code.
 
 
-# Todo ( 19.03.2023 )
-
-	• Create a Documentation ( 75% )
-	• Implementing MySQL Library ( 57% )
-	
-# Current State ( 16.06.2023 )
-
-	• Development will continued for now. Next Update will be in 2 Weeks.
-	
-	
 
 # Documentation
 
